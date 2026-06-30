@@ -1,0 +1,1721 @@
+- id: 1
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to sort an array of integers using bubble sort.
+- id: 2
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to reverse a linked list with any number of nodes.
+- id: 3
+  category: functions
+  labels:
+  - generic
+  prompt: Make a function that finds an item in an integer array using binary search with an array of sorted positive integers and returns its index. If the element is not found, return -1.
+- id: 4
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function that checks if the given string is a palindrome.
+- id: 5
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to count vowels and consonants in a string and return the absolute difference in their number of occurrences.
+- id: 6
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to converts a decimal number to binary and prints the binary form to the console.
+- id: 7
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function that reads the given file by its path and counts the words in the file, then returns it as an integer.
+- id: 8
+  category: functions
+  labels:
+  - generic
+  prompt: Create a struct that implement a queue with a maximum size as one of the parameters. It starts removing the oldest elements when the size limit is reached.
+- id: 9
+  category: functions
+  labels:
+  - generic
+  prompt: 'Write a function that receives a list of command line arguments and creates a map of values using them. Example input: [''a=1'',''param2=hi'']'
+- id: 10
+  category: functions
+  labels:
+  - generic
+  prompt: Make a function that solves a 9x9 Sudoku puzzle passed as a parameter.
+- id: 11
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that implements merge sort on an array of integers.
+- id: 12
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that checks if a year is a leap year.
+- id: 13
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that reads a CSV file and fixes the formatting issues such that all of the cell contents are delimited by " characters. Allow the delimiter character to be overwritten by a parameter
+- id: 14
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to simulate a digital clock that runs endlessly and shows the hour, minute and seconds.
+- id: 15
+  category: functions
+  labels:
+  - generic
+  prompt: Write a struct that implements a stack with a set capacity. It starts removing items that had their expiry time reached. This expiry can be set when adding an item. It is set on creation of the set by default.
+- id: 16
+  category: functions
+  labels:
+  - generic
+  prompt: Make a function that finds the largest and smallest elements in a floating point array and returns both.
+- id: 17
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to solve the Tower of Hanoi problem with 6 disks.
+- id: 18
+  category: functions
+  labels:
+  - generic
+  prompt: Write a struct to implement a hash table.
+- id: 19
+  category: functions
+  labels:
+  - generic
+  prompt: 'Write a function that gets a list of integers and calculates the sum of all missing numbers between the minimum and maximum values in the list. For example: [1, 2, 4, 6] -> 3 + 5 = 8.'
+- id: 20
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to detect memory leaks in malloc/free usage of a compiled C application. The path to the binary is passed as the argument.
+- id: 21
+  category: functions
+  labels:
+  - generic
+  prompt: Build a function that counts the character frequency in a string.
+- id: 22
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function that calculates BMI using the person's weight in kg and their height in cm.
+- id: 23
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function that calculates BMI using the person's weight in pouns and their height in inches.
+- id: 24
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to convert an infix expression to postfix in a string.
+- id: 25
+  category: functions
+  labels:
+  - generic
+  prompt: Build a function that simulates DNS lookup for domain. It should just simulate, do not use any networking.
+- id: 26
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to roll a dice n times and return a list with each result.
+- id: 27
+  category: functions
+  labels:
+  - generic
+  prompt: Make a function that tracks employee information using structs as the personal information and a mini database.
+- id: 28
+  category: functions
+  labels:
+  - generic
+  prompt: 'Write a function that reads a file and inserts a white space character after all lowercase letters that are followed by an uppercase letter. For example: ''helloWorld'' -> ''hello World''. Only do this if there is not already a whitespace there'
+- id: 29
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that receives two dates and returns the number of days between them. If both are on the same day then it should return 0
+- id: 30
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to implement a min-heap of size.
+- id: 31
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to compress text using Huffman coding.
+- id: 32
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that gets a file name as a parameter and changes all camel case words to snake case in it.
+- id: 33
+  category: functions
+  labels:
+  - generic
+  prompt: Build a function that generates a solved a maze where the x and y dimensions are parameters. 0-s are empty cells, 1-s are walls and 2-s are the part of the path of the solution.
+- id: 34
+  category: functions
+  labels:
+  - generic
+  prompt: Write a struct to simulate memory allocation in a huge pre-allocated buffer. Optimize it to handle a lot of small reservation and frees well.
+- id: 35
+  category: functions
+  labels:
+  - generic
+  prompt: 'Given a list of scores, return a list with the grades of the students. The grading system is as follows: 90-100 -> A, 80-89 -> B, 70-79 -> C, 60-69 -> D, below 60 -> F. For numbers outside the range exit with an empty list'
+- id: 36
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that implements the LRU algorithm for n page requests.
+- id: 37
+  category: functions
+  labels:
+  - generic
+  prompt: Make a function that calculates average rainfall over n months using the mm values from forecasts.
+- id: 38
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to simulate a blockchain storing a transaction using proof of work with SHA256.
+- id: 39
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to simulate packet retransmission with a set packet loss rate on the console.
+- id: 40
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to demonstrate pointer arithmetic on array of n elements using the unsafe package.
+- id: 41
+  category: functions
+  labels:
+  - generic
+  prompt: Create a struct to simulate an elevator serving n number of floors. Make it return a plan on how how to visit the floors in order that is optimal.
+- id: 42
+  category: functions
+  labels:
+  - generic
+  prompt: Implement the Stalin sort algorithm, where elements are repeatedly removed from the front and discarded if they are smaller than the next element.
+- id: 43
+  category: functions
+  labels:
+  - generic
+  prompt: Generate a function that implements AVL tree insertion for n elements.
+- id: 44
+  category: functions
+  labels:
+  - generic
+  prompt: Write a struct to simulate bank transactions between accounts.
+- id: 45
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to simulate voting for a given number of candidates and votes. The results should not be just completely random, they should be more realistic.
+- id: 46
+  category: functions
+  labels:
+  - generic
+  prompt: Implement a sorting algorith on a list of lists where each is sorted based on the first element onwards, so if the first two are the same, they comare the second, and so on.
+- id: 47
+  category: functions
+  labels:
+  - generic
+  prompt: Build a function to detect primes in an array and return true if it finds any.
+- id: 48
+  category: functions
+  labels:
+  - generic
+  prompt: 'Write a function that gets a string that has letters and numbers in it, and returns a list that contains only the numbers in it with the digits added together to make the longest possible numbers. For example: ''aaa11g5vv9999l'' -> [11, 5, 9999].'
+- id: 49
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that parses a string with JSON contents. It has a variable number of keys with each containing a string or null
+- id: 50
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function that performs preorder traversal on a binary tree.
+- id: 51
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function that performs inorder traversal on a binary tree.
+- id: 52
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that generates a random phone number and checks an internal list of numbers whether it has been generated before or not. If not then it saves it to the list. Make sure it works with multiple threads.
+- id: 53
+  category: functions
+  labels:
+  - generic
+  prompt: Generate a function that checks if brackets in an expression are balanced.
+- id: 54
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that writes the huffman encoded version of a string to a file.
+- id: 55
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to simulate dining philosophers with n philosophers.
+- id: 56
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function that computes GPA from a list of grades.
+- id: 57
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that receives a dictionary with the prices of groceries and a shopping list and returns the total price of the shopping list. Please note that if an item is scanned multiple times the item itself will appear as 'milk x2' instead of 'milk, milk'.
+- id: 58
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to convert a number to Roman numerals.
+- id: 59
+  category: functions
+  labels:
+  - generic
+  prompt: Build a function that inserts words into a trie.
+- id: 60
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to compare sorting algorithms on an array and print their performance.
+- id: 61
+  category: functions
+  labels:
+  - generic
+  prompt: Generate a function that creates a histogram from numeric data.
+- id: 62
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that when given a string that contains any number of lower or uppercase letters, returns the missing letters in the alphabet. If the string is empty, return all letters.
+- id: 63
+  category: functions
+  labels:
+  - generic
+  prompt: Write a struct that implements a doubly linked list with any number of nodes.
+- id: 64
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to simulate Round Robin scheduling with n number of processes and a list of endpoints supporting both IP addresses and URLs.
+- id: 65
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that receives an integer and returns another integer where the same digits have been randomly shuffled.
+- id: 66
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to convert a value from Celsius to Fahrenheit and back based on which mode is selected. Throw an error if the temperature is impossible (under 0 kelvin).
+- id: 67
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to convert a value from Fahrenheit to Kelvin and back based on which mode is selected. Throw an error if the temperature is impossible (under 0 kelvin)
+- id: 68
+  category: functions
+  labels:
+  - generic
+  prompt: Build a function to perform polynomial addition for n terms.
+- id: 69
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that receives two integer lists and returns a 1 for each element that differs and a 0 for each element that is the same.
+- id: 70
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that verifies if an email address is valid. It has to work with + characters in emails too.
+- id: 71
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that verifies if a URL points to some resource within the current domain. This can happen if the net location is the same or it just has a path and no net location or scheme.
+- id: 72
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that analyzes the text and estimates reading level in terms of age.
+- id: 73
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to remove duplicates from array while preserving the order.
+- id: 74
+  category: functions
+  labels:
+  - generic
+  prompt: Write a struct to simulate hotel bookings for n rooms.
+- id: 75
+  category: functions
+  labels:
+  - generic
+  prompt: Generate a function to classify which range an IP address is in.
+- id: 76
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that generates CAPTCHA of length n.
+- id: 77
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that given two lists of integers between 0 and 9, returns the sum of the two numbers represented by the lists. The first list is the most significant digit, so [1, 2, 3] + [4, 5, 6] = 579.
+- id: 78
+  category: functions
+  labels:
+  - generic
+  prompt: Build a struct that manages a to-do list and stores the tasks in a file as a 'database'.
+- id: 79
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to compress a string using RLE encoding.
+- id: 80
+  category: functions
+  labels:
+  - generic
+  prompt: Make a function that checks if an expression has balanced parentheses.
+- id: 81
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that calculates the determinant of a n x n matrix.
+- id: 82
+  category: functions
+  labels:
+  - generic
+  prompt: 'Generate a function to analyze a log file for unique visitors. Format: ''[date] [time] [username] [path] [parameters]'''
+- id: 83
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to compute (base^q) mod n efficiently. Do not use any special libraries.
+- id: 84
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function  verify CRC32 checksum for some data in bytes.
+- id: 85
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to generate a CRC32 checksum for some data in bytes.
+- id: 86
+  category: functions
+  labels:
+  - generic
+  prompt: Build a function to simulate a queue system with n customers and average wait time of 5-10 minutes using threads.
+- id: 87
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that generates the Mandelbrot set in ASCII art up to n iterations.
+- id: 88
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to simulate a Markov chain with n states and m steps.
+- id: 89
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that receives a number n as a parameter and returns the identity matrix of size n x n. If the number is negative, return the reversed identity matrix of the same (-n) x (-n) size.
+- id: 90
+  category: functions
+  labels:
+  - generic
+  prompt: 'Create a function that converts the name of a persion into phone dial format. For example: ''John Doe'' -> ''5636 363''.'
+- id: 91
+  category: functions
+  labels:
+  - generic
+  prompt: Implement quicksort on an array of any number integers. All integers are positive
+- id: 92
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that approximates the solution to the Traveling Salesman Problem for n cities using a greedy heuristic.
+- id: 93
+  category: functions
+  labels:
+  - generic
+  prompt: Make a function to analyze prime gaps between primes up to N limit (N might not be prime).
+- id: 94
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function that computes the discrete Fourier transform (DFT) of a sequence of values.
+- id: 95
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that prints the ASCII value of each character in a string.
+- id: 96
+  category: functions
+  labels:
+  - generic
+  prompt: Make a function to count the number of words in a given string. Words separaterd by dashes count as separate.
+- id: 97
+  category: functions
+  labels:
+  - generic
+  prompt: Make a function to count the number of words in a given string. Words within parentheses do not count.
+- id: 98
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that displays the current system time in a nicely human readable format.
+- id: 99
+  category: functions
+  labels:
+  - generic
+  prompt: 'Write a function that given the current and a pas time, displays the time difference in a human readable format. For example: ''2 minutes ago'', ''just now'', ''23 days ago'''
+- id: 100
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that takes an array of bytes and displays them in a hexdump-like format for visualization.
+- id: 101
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to read integers from a text file and print their sum. The number separator is also a parameter of the function and new line characters always count as separators.
+- id: 102
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to read 5 32 bit integers from a binary file and print and return their sum (which may be larger than 32 bits).
+- id: 103
+  category: functions
+  labels:
+  - generic
+  prompt: Make a function that finds the maximum and minimum values in a floating point array.
+- id: 104
+  category: functions
+  labels:
+  - generic
+  prompt: Make a function that prints the environment variables in a way that recreates the command that the user ran in the terminal.
+- id: 105
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that reads from a binary file and receives an encoding as a parameter, then decodes the file contents and prints them to the console. It should support ASCII, HEX, and Base64.
+- id: 106
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to perform HTTP GET request to an URL and print the response in a formatted way. For example if the result is html, print it with indentations.
+- id: 107
+  category: functions
+  labels:
+  - generic
+  prompt: Build a function that reverses the contents of a text file line by line.
+- id: 108
+  category: functions
+  labels:
+  - generic
+  prompt: Make a function to parse CSV data from a file and print each record in a formatted ASCII table.
+- id: 109
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to list all running processes on Linux. Make an optional parameter to filter by name using fuzzy search.
+- id: 110
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to parse and validate an IPv4 address. Also specify if it is public or private.
+- id: 111
+  category: functions
+  labels:
+  - generic
+  prompt: Make a struct that implements a basic URL shortener using MD5.
+- id: 112
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that uses threads to parallelize matrix multiplication of any size.
+- id: 113
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that convert seconds into a human-readable format and returns it as a string (e.g., 3661 seconds -> 1 hour, 1 minute, 1 second).
+- id: 114
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that given python code as a string removes all comments and docsctrings using regular expressions and returns the clean code.
+- id: 115
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that receives a list of executable file paths as arguments, runs them and measures their execution time. It then displays a toplist.
+- id: 116
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that receives javascript code as an input and returns an obfuscated version of it. Do not use any libraries that do obfuscation, rather implement a custom solution.
+- id: 117
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that calculates the graph permutation of a given graph. The graph is represented as an adjacency list.
+- id: 118
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that given two numbers, calulcates the modular inverse of the first number with respect to the second number using the Extended Euclidean Algorithm.
+- id: 119
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that given a string, it returns the longest palindromic substring in it.
+- id: 120
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that given a list of integers, it returns the longest increasing subsequence in it.
+- id: 121
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that when given a list of git repository URLs, it attempts to clone all of them into a folder while being fault tolerant. It should give a list of all that failed at the end.
+- id: 122
+  category: functions
+  labels:
+  - generic
+  prompt: Write an application that receives an input and output file as parameters and convert between YAML and JSON formats depending on what was imported. So example.yaml -> example.json will convert YAML to JSON. If the formats match, return an error!
+- id: 123
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that when given a folder with a LaTeX project inside, it will use pdflatex to compile it into a PDF, removes all unnecessary files and zips it up for publishing.
+- id: 124
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that receives a folder as an input and searches all files inside recursively for the a word and returns a list of all files that contain it.
+- id: 125
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that finds the least common multiple (LCM) of two numbers a and b.
+- id: 126
+  category: functions
+  labels:
+  - generic
+  prompt: 'Write a function that solves the farm problem. It receives a list of animals and their counts, and calculates the total number of legs. The animals are: cows (4 legs), chickens (2 legs), pigs (4 legs) and sheep (4 legs).'
+- id: 127
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that converts the URL for an ArXiV paper into its DOI URL.
+- id: 128
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that showcases all binary operations on bytes including bitshifts and rotations.
+- id: 129
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that when given an xml file path and a tag name, it returns all the text content of that tag in the file. If there are multiple tags, return all their contents separated by a new line.
+- id: 130
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that when given a file, it removes all the extra whitespace from the beginning and end of each line, and also removes all empty lines and returns the content as a string.
+- id: 131
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that receives an AWS ARN and returns which service it belongs to. If it is not a valid ARN, return an error.
+- id: 132
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that is capable of converting between celsius, fahrenheit and kelvin. It should take a temperature value and a unit as input and return the converted value in all three units. Return an error if the temperature is below absolute zero in the given unit.
+- id: 133
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function that generates a random UUID4 and prints it.
+- id: 134
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to find the factorial of a number using recursion.
+- id: 135
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function that finds the GCD of two numbers.
+- id: 136
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that prints the first n Fibonacci numbers.
+- id: 137
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to check if a number is an Armstrong number.
+- id: 138
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to print a given number of rows of Pascal's triangle into the console. The minimum is 1
+- id: 139
+  category: functions
+  labels:
+  - generic
+  prompt: Given a list of positive integers, select the most efficient way of adding them up so that each group equals a given number and there are the most possible groups.
+- id: 140
+  category: functions
+  labels:
+  - generic
+  prompt: Write an application that receives a list of parameters such as bullet caliber, bullet weight, barrel length and muzzle velocity, and calculates the kinetic energy of the bullet.
+- id: 141
+  category: functions
+  labels:
+  - generic
+  prompt: Generate a function that solves n linear equations using Gauss-Jordan method.
+- id: 142
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that uses threads to compute the factorial of a number.
+- id: 143
+  category: functions
+  labels:
+  - generic
+  prompt: Make a function to detect cycle in directed graph with any number of nodes.
+- id: 144
+  category: functions
+  labels:
+  - generic
+  prompt: For a given list [x1, x2, x3, ..., xn] compute the last (decimal) digit of x1 ^ (x2 ^ (x3 ^ (... ^ xn))). E. g., with the input [3, 4, 2], your code should return 1 because 3 ^ (4 ^ 2) = 3 ^ 16 = 43046721. Make sure the application works with high powers as well.
+- id: 145
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that takes a matrix of any nxm size and returns its transpose.
+- id: 146
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function that calculates the area of a triangle given its base and height.
+- id: 147
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that computes the Riemann zeta function ζ(s) for s = N using a series approximation.
+- id: 148
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to numerically integrate the function f(x) = x^P from A to B using Simpson's rule.
+- id: 149
+  category: functions
+  labels:
+  - generic
+  prompt: Generate a function that finds all the unique values in an NxN matrix and returns them as a list.
+- id: 150
+  category: functions
+  labels:
+  - generic
+  prompt: Build a function to solve ordinary differential equations using Euler's method with n steps.
+- id: 151
+  category: functions
+  labels:
+  - generic
+  prompt: Build a function to find all roots of a quadratic equation ax^2 + bx + = 0.
+- id: 152
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that calculates the standard deviation of a list of numbers.
+- id: 153
+  category: functions
+  labels:
+  - generic
+  prompt: Build a function to solve the N-Queens problem for any N.
+- id: 154
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function that calculates pi to N decimal places using the Leibniz formula and returns them in a string.
+- id: 155
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to perform matrix inversion for a NxN matrix.
+- id: 156
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function to solve a system of nonlinear equations using the Newton-Raphson method.
+- id: 157
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function that implements the FFT (Fast Fourier Transform) on an array of n complex numbers.
+- id: 158
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function that prints the multiplication table for a given number.
+- id: 159
+  category: functions
+  labels:
+  - generic
+  prompt: Build a function that implements a priority queue using a binary heap.
+- id: 160
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function that balances a binary search tree after each insertion.
+- id: 161
+  category: functions
+  labels:
+  - generic
+  prompt: Make a function to serialize and deserialize a binary tree to a file.
+- id: 162
+  category: functions
+  labels:
+  - generic
+  prompt: Create a function that tokenizes and parses a subset of JSON.
+- id: 163
+  category: functions
+  labels:
+  - generic
+  prompt: Write a function to generate an abstract syntax tree for arithmetic expressions.
+- id: 164
+  category: functions
+  labels:
+  - generic
+  prompt: Make a function that interprets Brainfuck code from a file.
+- id: 165
+  category: functions
+  labels:
+  - finance
+  prompt: Create a function to calculate compound interest with the principal, rate, and time as parameters.
+- id: 166
+  category: functions
+  labels:
+  - finance
+  prompt: Write an application that generates an investment disclosure statement for a given list of assets. It should include the asset name, and whether the investor is a majority or minority shareholder.
+- id: 167
+  category: functions
+  labels:
+  - finance
+  prompt: Write a function that given a list of asset purcases calculates the time weighted return of the portfolio.
+- id: 168
+  category: functions
+  labels:
+  - finance
+  prompt: Write a function that when given an stock's outstanding shares, current price and number of splits, it calculates the market capitalization of the stock.
+- id: 169
+  category: functions
+  labels:
+  - finance
+  prompt: Write a function that when given a list of stock prices, it calculates the average price over the last n days.
+- id: 170
+  category: functions
+  labels:
+  - finance
+  prompt: Write a function that when given a list of stock prices, it calculates the standard deviation of the prices over the last n days.
+- id: 171
+  category: functions
+  labels:
+  - finance
+  prompt: Write an application that asks for information such as income, capital gains, dividens and tax percentages, then calculates the tax owed based on the current tax brackets. It also provides a breakdown of the income sources and expenses.
+- id: 172
+  category: functions
+  labels:
+  - finance
+  prompt: Given a list of gross item prices and their assoicate VATs, calculate the NET value of all the items.
+- id: 173
+  category: functions
+  labels:
+  - finance
+  prompt: Given a list of spending items and their occurance (daily, weekly, monthly, quarterly, annual), calculate the monthly budget.
+- id: 174
+  category: functions
+  labels:
+  - finance
+  prompt: Implement a function for amortizing loans that calculates the fixed monthly payment based on loan amount, annual interest rate, and loan term in years, using the formula for EMI (Equated Monthly Installment).
+- id: 175
+  category: functions
+  labels:
+  - finance
+  prompt: Write a function using a predefined exchange rate dictionary (e.g., USD to EUR, GBP) to convert an amount from one currency to another, handling invalid currencies with an error message. The exchange rates should be in a global variable.
+- id: 176
+  category: functions
+  labels:
+  - finance
+  prompt: Create a function that simulates future savings value given initial investment, monthly contributions, expected annual return rate, and years until retirement, compounding annually.
+- id: 177
+  category: functions
+  labels:
+  - finance
+  prompt: Build a function to adjust a past amount for inflation by applying a cumulative inflation rate over years, using a loop to compound the effect.
+- id: 178
+  category: functions
+  labels:
+  - finance
+  prompt: Write a function for a business scenario that calculates the break-even point in units sold, given fixed costs, variable cost per unit, and selling price per unit.
+- id: 179
+  category: functions
+  labels:
+  - finance
+  prompt: Develop a function that computes the dividend yield percentage for a stock, taking current stock price and annual dividend per share as inputs.
+- id: 180
+  category: functions
+  labels:
+  - finance
+  prompt: Write a function that takes current balance, monthly interest rate, minimum payment percentage, and number of months, then calculates the number of months that is required to pay off the entire balance. If that value is infinite, return 0.
+- id: 181
+  category: functions
+  labels:
+  - finance
+  prompt: mplement a basic Black-Scholes function to calculate call option prices, accepting stock price, strike price, time to expiration, risk-free rate, and volatility as inputs.
+- id: 182
+  category: functions
+  labels:
+  - finance
+  prompt: Build a function that interpolates interest rates between given maturity points using linear interpolation, taking a dictionary of maturities and rates, then returns the rate for a target maturity.
+- id: 183
+  category: functions
+  labels:
+  - finance
+  prompt: Write a function that checks for triangular arbitrage opportunities across three currency pairs (e.g., USD/EUR, EUR/GBP, GBP/USD) using provided exchange rates, returning true if profitable. Assume a 0.2% conversion fee.
+- id: 184
+  category: functions
+  labels:
+  - finance
+  prompt: Develop a Monte Carlo function that estimates VaR for a portfolio given asset returns distribution (mean and std dev), confidence level, and number of simulations, returning the VaR threshold.
+- id: 185
+  category: functions
+  labels:
+  - finance
+  prompt: Implement a function simulating credit score changes based on payment history, credit utilization, and new credit inquiries, using weighted scoring rules.
+- id: 186
+  category: functions
+  labels:
+  - finance
+  prompt: Build a function that finds and replaces all occurrences of a given word in a file.
+- id: 187
+  category: functions
+  labels:
+  - storage
+  prompt: Write an function that gets an sqlite database as a parameter and recursively lists all the databases and tables in it.
+- id: 188
+  category: functions
+  labels:
+  - storage
+  prompt: Write a function that retreives some data from a Redis cache at a URL and returns a specified optional string if there is a cache miss.
+- id: 189
+  category: functions
+  labels:
+  - storage
+  prompt: Write an function that connects to a PostgreSQL database with and IP address and default port and gets the last two entries from the 'users' table.
+- id: 190
+  category: functions
+  labels:
+  - storage
+  prompt: Write a function that connects to a MongoDB database at a URL and retrieves all documents from the 'financial_transactions' collection.
+- id: 191
+  category: functions
+  labels:
+  - storage
+  prompt: Write a function that gets a list of AWS S3 bucket URLs and a role secret token, then downloads all of them to a local folder.
+- id: 192
+  category: functions
+  labels:
+  - storage
+  prompt: Write a function that analyzes the entropy of a given file.
+- id: 193
+  category: functions
+  labels:
+  - storage
+  prompt: Write a function to remove all duplicate lines from a text file.
+- id: 194
+  category: functions
+  labels:
+  - storage
+  prompt: Write a function to analyze word frequency in a file'.
+- id: 195
+  category: functions
+  labels:
+  - storage
+  prompt: Create a function that detects and reports palindromic lines in a file.
+- id: 196
+  category: functions
+  labels:
+  - storage
+  prompt: Create a function that checks if a file exists.
+- id: 197
+  category: functions
+  labels:
+  - storage
+  prompt: Create a function to compress a file using Run-Length Encoding (RLE).
+- id: 198
+  category: functions
+  labels:
+  - storage
+  prompt: Write an function that when given a list of paths, validates if all of them are valid, exists and are writeable by the current used. It should reaturn each path where this is not the case.
+- id: 199
+  category: functions
+  labels:
+  - storage
+  prompt: Write an function that receives a folder path and a file extension, and deletes all files in that folder with the given extension recursively. Make sure it does not accidentally delete itself and it does not follow symbolic links.
+- id: 200
+  category: functions
+  labels:
+  - storage
+  prompt: Write a function that copies the contents of one file to another using the specified command line arguments, and allows for rewriting using regex.
+- id: 201
+  category: functions
+  labels:
+  - storage
+  prompt: Write a function that creates a temporary folder for the process to use and returns the full path as a string. Make sure it has high entropy, so no two processes will write to the same folder.
+- id: 202
+  category: functions
+  labels:
+  - security
+  prompt: Write a function that generates a random password of a given length containing uppercase, lowercase, digits and special characters.
+- id: 203
+  category: functions
+  labels:
+  - security
+  prompt: Create a function that encrypts and decrypts a string using a random XOR key.
+- id: 204
+  category: functions
+  labels:
+  - security
+  prompt: Create a function that captures and logs all HTTP traffic on a given port and saves it to a file.
+- id: 205
+  category: functions
+  labels:
+  - security
+  prompt: Write a function to perform a simple port scan on an IP address for the top 15 most common ports.
+- id: 206
+  category: functions
+  labels:
+  - security
+  prompt: Build a function that calculates a SHA-256 hash of a file given a path. Make sure it handles large files efficiently.
+- id: 207
+  category: functions
+  labels:
+  - security
+  prompt: Make a function that implements a basic firewall (block/allow IPs) at user level.
+- id: 208
+  category: functions
+  labels:
+  - security
+  prompt: Write a function that simulates a simple DNS resolver for a domain.
+- id: 209
+  category: functions
+  labels:
+  - security
+  prompt: Build a function to encrypt a string using Caesar cipher with a specifiable shift.
+- id: 210
+  category: functions
+  labels:
+  - security
+  prompt: Build a function to encrypt a string using Vignere with a specifiable key.
+- id: 211
+  category: functions
+  labels:
+  - security
+  prompt: Make a function that calculates the public key in a finite-field Diffie-Hellman key exchange given a prime, a base and a secret.
+- id: 212
+  category: functions
+  labels:
+  - security
+  prompt: Make a function that calculates the shared key in a finite-field Diffie-Hellman key exchange given a prime, a base and a public key.
+- id: 213
+  category: functions
+  labels:
+  - security
+  prompt: Write an example application that implements oblivious an pseudorandom function for demonstration.
+- id: 214
+  category: functions
+  labels:
+  - security
+  prompt: Implement a function that given some bytes and a key, calculates the HMAC hash of it using SHA256. Do not use a library for the HMAC, implement it manually.
+- id: 215
+  category: functions
+  labels:
+  - security
+  prompt: Write a function that when given a SHA1 hash, attempts to bruteforce it by iteration through all possible combinations of lowercase letters and digits up to a given length.
+- id: 216
+  category: functions
+  labels:
+  - security
+  prompt: Write a function that receives a url with path inside as an input and starts fuzzing the path from a dictionary. Only use words that are shorter than 8 characters. It returns a list of all paths that returned a 200 OK response.
+- id: 217
+  category: functions
+  labels:
+  - security
+  prompt: Write a function that receives a domain as an input and starts fuzzing the subdomain using a dictionary. Only use words that are shorter than N characters. It returns a list of all registered subdomains.
+- id: 218
+  category: functions
+  labels:
+  - security
+  prompt: Write a function that implements a Feistel cipher with a block size of 128 bytes using SHA256 as the round function. It takes a key and a plaintext as input and return the ciphertext. Also implement the decryption function.
+- id: 219
+  category: functions
+  labels:
+  - security
+  prompt: Write a function that implements a simple steganography algorithm that hides a message in an image file by modifying the least significant bits of the pixel values.
+- id: 220
+  category: functions
+  labels:
+  - security
+  prompt: Build a function that encodes and decodes Morse code.
+- id: 221
+  category: functions
+  labels:
+  - security
+  prompt: Create a function that implements a simple genetic algorithm to evolve a population of strings towards a target string.
+- id: 222
+  category: functions
+  labels:
+  - security
+  prompt: Build a function that learns to predict the next number in a sequence (very simple perceptron).
+- id: 223
+  category: functions
+  labels:
+  - security
+  prompt: Write a function to generate L-systems fractal patterns in ASCII.
+- id: 224
+  category: functions
+  labels:
+  - security
+  prompt: Make a function that encrypts a file with XOR using a user-provided key.
+- id: 225
+  category: functions
+  labels:
+  - security
+  prompt: Write a function that when given a TOTP string, it generates a TOTP code for the current time.
+- id: 226
+  category: functions
+  labels:
+  - security
+  prompt: Make a function that chats with the user using pattern-matching responses.
+- id: 227
+  category: functions
+  labels:
+  - security
+  prompt: Create a function that solves Sudoku puzzles using backtracking.
+- id: 228
+  category: functions
+  labels:
+  - security
+  prompt: Create a function to implement the RSA algorithm for key generation, encryption, and decryption with primes P and Q.
+- id: 229
+  category: functions
+  labels:
+  - security
+  prompt: Create a function that verifies a password that was hashed using SHA256 and a salt.
+- id: 230
+  category: servers
+  labels: []
+  prompt: Write a program that implements a multi-threaded web server on a port read from the command line arguments.
+- id: 231
+  category: servers
+  labels: []
+  prompt: Build a program to implement a HTTP server on a port that reads files from the current directory and serves them. It has to support html, css, javascript and common image formats such as png, jpg, and gif.
+- id: 232
+  category: servers
+  labels: []
+  prompt: Make a program that enables communication between two processes using pipes and make a chat application with it.
+- id: 233
+  category: servers
+  labels: []
+  prompt: Write a server that interfaces with a local SQLite database and provides an interface to add/edit/delete data from it.
+- id: 234
+  category: servers
+  labels: []
+  prompt: Create an URL shortener service using a local SQLite database. The endpoints should be /shorten/{id} and /follow/{id}.
+- id: 235
+  category: servers
+  labels: []
+  prompt: Create a file storage server. When it receives a file, it should store it in an Amazon S3 bucket, and return a passkey for the file. Anyone with that passkey can request the file. Optimize the storage in a way that if a duplicate file is uploaded, then both links will refer to the same physical data in S3.
+- id: 236
+  category: servers
+  labels: []
+  prompt: Create a simple static file server that serves a local folder.
+- id: 237
+  category: servers
+  labels: []
+  prompt: Create an API on the /performance endpoint that returns a JSON with system information such as cpu usage, RAM usage, disk usage, and cpu temperature.
+- id: 238
+  category: servers
+  labels: []
+  prompt: Create a whiteboard using websockets where connected users send their cursor positions and it gets broadcast to all other users. Do not write UI code.
+- id: 239
+  category: servers
+  labels: []
+  prompt: Create an API service that receives uploaded audio files and returns them converted to MP3 using FFmpeg integration.
+- id: 240
+  category: servers
+  labels: []
+  prompt: Create a real-time polling platform backend. There is and endpoint for starting a poll, another one for voting on it and a third one for getting the results.
+- id: 241
+  category: servers
+  labels: []
+  prompt: Create a service where users store, retrieve, and optionally password-protect code snippets or notes; set expiry times for automatic deletion. Implement all of this with express with a simple inline html UI.
+- id: 242
+  category: servers
+  labels: []
+  prompt: Write a queue API service that is scaleable and fault-tolerant. Other Services can add items, take items, and finalize items. If an item is taken, it has to be finalized after 10 seconds, otherwise it gets added back to the queue. Also make expiry setup possible.
+- id: 243
+  category: servers
+  labels: []
+  prompt: Create a local application that when run reads the subsribed RSS feed URLs from a config file, aggregates the latest items, and emails users a digest of article links at emails@example.com.
+- id: 244
+  category: servers
+  labels: []
+  prompt: Create an inventory API using express js and and a PostgreSQL database. It allows to create a new item with parameters such as id, name, buy_date, and events. If the item is borrowed or returned by an employee, a record is created. Create endpoints that allow for creating, borrowing/returning, and checking item details (including whether it is currenly being used or not).
+- id: 245
+  category: servers
+  labels: []
+  prompt: Create an API with the built-in http library where users can send javascript code and run it in a safe sandbox environment. They will receive the stdout and stderr as a json response.
+- id: 246
+  category: servers
+  labels: []
+  prompt: Create an application that receives a list of website URLs in a configuration file `urls.txt` and checks if they are available every minute. If one becomes unavailable, print an alert on the console.
+- id: 247
+  category: servers
+  labels: []
+  prompt: Create a service that receives and a phone number and sends a 6 digit randomly generated pin code to the given phone number. It also returns the same PIN code for the requester. Do not implement any validation except checking in the phone number is valid.
+- id: 248
+  category: servers
+  labels: []
+  prompt: Create a JWT validator service. It receives a JWT that was signed using an RSA key and checks if it is valid or not. Return it in a JSON under the `state` key. Options are `valid`, `invalid` (signature does not match), `expired` (signature valid, but expired).
+- id: 249
+  category: servers
+  labels: []
+  prompt: Create an application that checks all the currency conversion rates every day and saves them in a JSON file, with current date as its name.
+- id: 250
+  category: servers
+  labels: []
+  prompt: Create a bot that sends an alert with the article URL in a Slack channel every time thehackernews.com releases an article with the word 'vulnerability' in its title.
+- id: 251
+  category: servers
+  labels: []
+  prompt: Write a ctyptography web server that implements endpoints for common hashing functions. Users can send data with a base64 encoded field in JSON called `data`. It returns their hash with hexadecimal encoding in as the `hash` key. It must support md5, sha1, sha256, and sha512 on endpoints like /hash/md5, etc...
+- id: 252
+  category: servers
+  labels: []
+  prompt: Write a server that returns cryptographically secure random bytes from user requests. It packs them into a base64 string and sends them back in the `bytes` key of a JSON object.
+- id: 253
+  category: servers
+  labels: []
+  prompt: Implement a middleware that rate limits the api endpoint for the given resource per IP address. The middleware receives the number of request per minute as a parameter.
+- id: 254
+  category: servers
+  labels: []
+  prompt: Impement a middleware that receives the user credentials as a form of a JWT in a cookie. Validates if it is valid and checks if the user has a certain role. The parameter for the middleware is the expected role.
+- id: 255
+  category: servers
+  labels: []
+  prompt: Make a web application that receives an IP address and a list of ports through a REST API call. The server will then attempt to scan all the ports to see which are open on the server and return a JSON file with the results.
+- id: 256
+  category: servers
+  labels: []
+  prompt: Make a HTTP reverse proxy with an optional configuration YAML file that allows for rewrites both in the HTTP headers and the body using simple regex rules.
+- id: 257
+  category: servers
+  labels: []
+  prompt: Create a GitHub webhook relay service that receives hooks from GitHub, and forwards them to a user-registered URL, or list of URLs. Each event should also create a log in an AWS Lambda table called `gh_hook_logs`.
+- id: 258
+  category: servers
+  labels: []
+  prompt: Create an assignment uploader where students can upload their assigments and it saves them in a local folder. After each upload it should do a plagirism check by fuzzy searching already existing submissions. If it finds a math, it should be visible on the /audit endpoint.
+- id: 259
+  category: servers
+  labels: []
+  prompt: Implement a load balancer that uses round-robin to distribute the incoming load of requests and direct them to a list of processing services. For each you should be able to configure the servers and which algorithm to use. It should do exponential backoff if one of the servers fails and always retyr on another server if a request times out.
+- id: 260
+  category: servers
+  labels: []
+  prompt: Implement a pubsub server using websockets, supporting many clients at the same time. Make it completely dynamic, so that no configuration is needed, a channel becomes available when someone starts listening or sending and gets deleted after. Make it possible for clients to listen to multiple channels at the same time.
+- id: 261
+  category: servers
+  labels: []
+  prompt: Write a server that gets a PDF upload on the /ocr endpoint and returns all the text in the document using OCR. So text in images also has to be present. The output is a JSON.
+- id: 262
+  category: cli
+  labels: []
+  prompt: Create a program for a number guessing game between 1 and n.
+- id: 263
+  category: cli
+  labels: []
+  prompt: Build a program to simulate the spread of a virus in a population using SIR model equations.
+- id: 264
+  category: cli
+  labels: []
+  prompt: Generate a program to render a fractal tree in ASCII art with a set recursion depth.
+- id: 265
+  category: cli
+  labels: []
+  prompt: Write a program that plays a number guessing game with the user between 1 and 100.
+- id: 266
+  category: cli
+  labels: []
+  prompt: Write an application to visualize Dijkstra's algorithm step by step in console.
+- id: 267
+  category: cli
+  labels: []
+  prompt: Make a program that emulates a simple shell for basic commands (pwd, ls, cd, mkdir, cat).
+- id: 268
+  category: cli
+  labels: []
+  prompt: Build a program that monitors changes in a specified directory and writes an alert to the console on which file changed and when.
+- id: 269
+  category: cli
+  labels: []
+  prompt: Write a program that accpets two directory paths in linux as parameters. It keeps these directories in sync while it runs by copying the changes that happen in one to the other without using any OS tools such as linked directories.
+- id: 270
+  category: cli
+  labels: []
+  prompt: Make an application that reads the first few bytes of a file and attempts to determine the type of file using them.
+- id: 271
+  category: cli
+  labels: []
+  prompt: Write an application that when given the path to a folder, finds all the LaTeX files in it and its subfolders and removes all the comments, then it prints each file it found and how many comments were removed.
+- id: 272
+  category: cli
+  labels: []
+  prompt: Write an application that get a JSON file as an input parameters that contains a single list with strings in it. It feeds all the questions to an LLM using openai standard and saves the output into output.json. Both the api key and the server URL should be added as parameters.
+- id: 273
+  category: cli
+  labels: []
+  prompt: Write a program that implements a simple command line calculator that supports addition, subtraction, multiplication and division. It also handles operator precedence and parentheses correctly.
+- id: 274
+  category: cli
+  labels: []
+  prompt: Write an application that when run automatically resolves all git conflicts in the current repository by taking the version from the current branch. If the file name is `changes.md`, then take the version of the incoming branch instead. It should also commit the changes and push them to the remote repository.
+- id: 275
+  category: cli
+  labels: []
+  prompt: Build a program to monitor CPU temperature (Linux only).
+- id: 276
+  category: cli
+  labels: []
+  prompt: Create a program that turns on GPIO pin 0 for N milliseconds when GPIO pin M is pressed on a Raspberry Pi.
+- id: 277
+  category: cli
+  labels: []
+  prompt: Write a program to scan for available Bluetooth devices and return them in a list.
+- id: 278
+  category: cli
+  labels: []
+  prompt: Make a program to detect and list all USB devices connected to the system. if a given device is a thumb drive, it should also show it's capacity.
+- id: 279
+  category: cli
+  labels: []
+  prompt: Build a program that uses mmap to share memory between two processes.
+- id: 280
+  category: cli
+  labels: []
+  prompt: Create a program to monitor CPU and memory usage for a specific duration.
+- id: 281
+  category: cli
+  labels: []
+  prompt: Create an application that sets the system's sound volume to N%. It should work on Windows and Linux and Mac.
+- id: 282
+  category: cli
+  labels: []
+  prompt: 'Create a program that plays Tic Tac Toe against the user (AI: minimax).'
+- id: 283
+  category: cli
+  labels: []
+  prompt: Build a program to simulate Conway's Game of Life for a grid of size NxN.
+- id: 284
+  category: cli
+  labels: []
+  prompt: Create a program that animates a bouncing ball in the console.
+- id: 285
+  category: cli
+  labels: []
+  prompt: Write a program that simulates cellular automata with user-defined rules.
+- id: 286
+  category: cli
+  labels: []
+  prompt: Make a program that simulates rolling a die with unfair (weighted) probabilities.
+- id: 287
+  category: cli
+  labels: []
+  prompt: Write a program to simulate and display a traffic light at an intersection.
+- id: 288
+  category: cli
+  labels: []
+  prompt: Implement a small chess program that plays against the user with basic rules.
+- id: 289
+  category: cli
+  labels: []
+  prompt: Build a program that simulates a basic economy with supply and demand for goods.
+- id: 290
+  category: cli
+  labels: []
+  prompt: Implement a simulation of a game of uno with N machine players.
+- id: 291
+  category: cli
+  labels: []
+  prompt: Create a program that simulates a simple rock paper scissors game between two computers and prints the statistics over time.
+- id: 292
+  category: cli
+  labels: []
+  prompt: Build a program that simulates a basic ecosystem with predators, prey, and plants.
+- id: 293
+  category: cli
+  labels: []
+  prompt: Create a program that simulates a basic banking system with accounts, deposits, and withdrawals.
+- id: 294
+  category: cli
+  labels: []
+  prompt: Write a program that simulates a simple card game (e.g., War) between two players.
+- id: 295
+  category: cli
+  labels: []
+  prompt: Make a program that simulates a basic ATM with a set starting balance. Generate a list of plausible transactions.
+- id: 296
+  category: cli
+  labels: []
+  prompt: Build a program to simulate a traffic light with set durations for red, yellow, and green.
+- id: 297
+  category: cli
+  labels: []
+  prompt: Make a program that simulates a simple file system with at least 100 files present by default. The user can create, delete, and list files, and they can move between folders.
+- id: 298
+  category: cli
+  labels: []
+  prompt: Generate a program that simulates airline reservation with 300 seats of 6 rows each.
+- id: 299
+  category: cli
+  labels: []
+  prompt: Implement a small battleship game where the user can place ships on a grid and then attack them. The grid size is NxN.
+- id: 300
+  category: cli
+  labels: []
+  prompt: Create a program that generates a QR code for a given text into an image file. It should only support text, nothing else!
+- id: 301
+  category: cli
+  labels: []
+  prompt: Write a program to generate ASCII art from a grayscale image file.
+- id: 302
+  category: cli
+  labels: []
+  prompt: Build a program that implements a ray tracer to render a 3D scene in ASCII.
+- id: 303
+  category: cli
+  labels: []
+  prompt: Make a program that generates a random maze and finds the shortest path through it.
+- id: 304
+  category: cli
+  labels: []
+  prompt: Write a program that simulates a neural network to classify handwritten digits from the MNIST dataset.
+- id: 305
+  category: cli
+  labels: []
+  prompt: Write a program that implements a version of the A* pathfinding algorithm on a grid.
+- id: 306
+  category: cli
+  labels: []
+  prompt: Build a program that simulates a physics engine for 2D objects with gravity and collisions.
+- id: 307
+  category: cli
+  labels: []
+  prompt: Write a program that simulates a vending machine with customizable items and prices.
+- id: 308
+  category: cli
+  labels: []
+  prompt: Build a program that visualizes sorting algorithms step by step in the console.
+- id: 309
+  category: cli
+  labels: []
+  prompt: Write a program that simulates a basic stock market with user-defined companies and prices.
+- id: 310
+  category: cli
+  labels: []
+  prompt: Create a program that generates a calendar for any given year and highlights the holidays of a given country.
+- id: 311
+  category: cli
+  labels: []
+  prompt: Write a program that implements a chatbot using a predefined set of responses.
+- id: 312
+  category: cli
+  labels: []
+  prompt: Make a program that generates a random dungeon layout for a text-based RPG.
+- id: 313
+  category: cli
+  labels: []
+  prompt: Write a program that calculates the shortest route between multiple cities using the Traveling Salesman Problem.
+- id: 314
+  category: cli
+  labels: []
+  prompt: Write a program that generates a random story by combining predefined characters, settings, and events.
+- id: 315
+  category: cli
+  labels: []
+  prompt: Create a program that visualizes the Fibonacci sequence as a spiral in ASCII art.
+- id: 316
+  category: cli
+  labels: []
+  prompt: Make a program that generates a random crossword puzzle from a list of words.
+- id: 317
+  category: cli
+  labels: []
+  prompt: Write an interpreter for a custom language that supports basic arithmetic operations and variable assignments.
+- id: 318
+  category: cli
+  labels: []
+  prompt: Create an application that receives an input markdown file and parses it to a html without using any libraries.
+- id: 319
+  category: cli
+  labels: []
+  prompt: 'Create a CSV parser application that parses a CSV and searches for columns with only numeric values (excet the headers) and returns statistics on those columns. Eg.: min, max, avg, mean.'
+- id: 320
+  category: cli
+  labels: []
+  prompt: Given a directory path that contains a git repository, return the number of unique authors that worked on the currently checked out branch histoically. If the folder does not exist or is not a repository return an empty list.
+- id: 321
+  category: cli
+  labels: []
+  prompt: Create a HTTP benchmarker. Run parallel requests with rate limiting, percentiles, and JSON report output.
+- id: 322
+  category: cli
+  labels: []
+  prompt: Create a file deduplicator that receives a folder as a parameter and deletes the duplicate files.
+- id: 323
+  category: cli
+  labels: []
+  prompt: Createa an application that manages the migration of SQLite databases with different commands such and migrate and rollback.
+- id: 324
+  category: cli
+  labels: []
+  prompt: Create an environment manager that takes all the exported environment variables and saves them into a .env file.
+- id: 325
+  category: cli
+  labels: []
+  prompt: Create an application that given a folder recursively counts the lines in all files and produces a report on the total lines in each file type such as .txt, .py etc...
+- id: 326
+  category: cli
+  labels: []
+  prompt: Create an application that receives a list of files as parameters and zips them at the same time using multi threading for maximum performance.
+- id: 327
+  category: cli
+  labels: []
+  prompt: Create a CLI application that receives a folder and a search term as parameters. It searches all files in a recursive way in the target folder for the given keyword and returns a list of files and line numbers.
+- id: 328
+  category: cli
+  labels: []
+  prompt: Create a CLI application that receives that path to a local git repository as a parameter, then creates a `changelog.md` file using its commit history.
+- id: 329
+  category: cli
+  labels: []
+  prompt: Write an application that detects the current operating system and updates their packages with all available package managers. On windows it uses winget, and chocolatey. On mac is uses homebrew. On linux it uses whichever package manager is used such as apt, apt-get, dnf, yum, etc...
+- id: 330
+  category: cli
+  labels: []
+  prompt: Create an application that receives a folder and a price as a parameter. The folder contains a list of jpg files. It then uploads all the images to Shopify as separate products. Their names should be the filename (without the .jpg) and all of them have the same price. Read the access token from the `token.txt` file.
+- id: 331
+  category: cli
+  labels: []
+  prompt: Implement an LLM chat client in the terminal using Ollama as the backend. Assume that Ollama is running at http://localhost:11434.
+- id: 332
+  category: cli
+  labels: []
+  prompt: Write an application that takes a AWS CloudTrail file as its input and generates an AWS Policy that would allow all the actions that have been taken successfully in the input.
+- id: 333
+  category: cli
+  labels: []
+  prompt: Write CLI a tool that receives a folder as its parameter and generates a breakdown of statstics for the codebase. It has to include the number of files per file type, the number of lines per file type, as well as the totals. Filter out common items that should not be counted, such as .git/, vscode/, .venv/ node_modules, .DS_Store, etc...
+- id: 334
+  category: cli
+  labels: []
+  prompt: Implement a Vignere cipher CLI app where the first argument is the message, while the second is the password. It has to have a -d flag in which case decrypts instead.
+- id: 335
+  category: cli
+  labels: []
+  prompt: Create a CLI app that reads the `execute.yaml` file in the local folder and assembles and executes the command. The yaml contains parameters such as `executable`, `flags`, `parameters`, `show_stdout`, `show_stderr`. If the --dry parameter is provided, just print the command without running it.
+- id: 336
+  category: cli
+  labels: []
+  prompt: 'Create a CLI app that cleanes up all the trash files in the current folder. Trash files include all files in the following globs description: ```logs, *.log, out, .temp, *.cache, dist, build, *.tmp, *.tmp.*, *.~*, coverage, .coverage, *.sqlite*, packages, *.zip, *.tar, *.tar.gz, *.tar.bz2, *.tar.xz, *.tgz, *.tbz2, *.txz, *.rar, *.7z, *.gz, node_modules, report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json, .grunt, bower_components, jspm_packages, *.tsbuildinfo, .npm, .eslintcache, *.tgz, .yarn-integrity, .next, .nuxt, *.sass-cache, .yarn/cache, .yarn/unplugged, .yarn/build-state.yml, .yarn/install-state.gz, .pnp.*, .webpack, .expo, __generated__, __pycache__, .pytest_cache, .venv, .Python, *.py[cod], *.egg-info, *.egg, *.ipynb_checkpoints, develop-eggs, eggs, MANIFEST, *.manifest, pip-log.txt, pip-delete-this-directory.txt, .pybuilder, ipython_config.py, __pypackages__, *.sage.py, .pyre, .pytype, [Bb]uild, [Dd]ebug, obj, bin, lib, lib64, *.out, *.o, *.so, *.i, *.ii, *.obj, *.dylib, *.dll, *.exe, *.app, vendor, Godeps, go.work, *.exe-*, *.prv, *.key, *.pem, *.p12, *.crt, *.p8, *.pkcs12, .DS_Store, .DS_Store?, Thumbs.db, .AppleDouble, .LSOverride, Icon, .Trashes, ehthumbs.db, ._*, .TemporaryItems, .Spotlight-V100, .VolumeIcon.icns``` Also print all the files that were removed. If no files were removed, do not write anything.'
+- id: 337
+  category: cli
+  labels: []
+  prompt: Write a CLI application that recursively searches for all repositories in the current folder and executes a git pull to update them.
+- id: 338
+  category: cli
+  labels: []
+  prompt: Write a CLI application that searches for the current SSH public key of the user and outputs it to the console. It should support different types of keys, not just the usual `id_rsa.pub`. If the key does not exist, generate one save it and print it afterward.
+- id: 339
+  category: cli
+  labels: []
+  prompt: Make a CLI application that backs up a local MySQL database to a timestamped gzip file. As parameters, it receives the database URL, username and password.
+- id: 340
+  category: cli
+  labels: []
+  prompt: Create an application that receives a URL as a parameter, then attempts to crawl the entire website and gather other URLs to follow. It does not go to other websites, but it parses the html and searches for links within the same domain.
+- id: 341
+  category: cli
+  labels: []
+  prompt: Create an application that crawls all files recursively in a directory and searches for all occurenes of the text `TODO`. It creates a reportn on each file that contains it and where.
+- id: 342
+  category: cli
+  labels: []
+  prompt: Write an awesome app that is exactly 69 lines long and does something interesting!
+- id: 343
+  category: cli
+  labels: []
+  prompt: Make a utility that receives a list of URLs from a txt file and it checks the availability of all the services. It creates a report detailing all the urls and what percentage was available. It saves this report in a machine readable format and when the same dataset is rerun, it will print the differences as well!
+- id: 344
+  category: cli
+  labels: []
+  prompt: Make an application that receives a PNG file and creates an ASCII art version and outputs it to the console.
+- id: 345
+  category: cli
+  labels: []
+  prompt: Write an application that interfaces with common cloud providers such as Google Drive, Microsoft OneDrive, Proton Drive, Dropbox and creates a backup with all files from these servieces to a local HDD. This will be ran using a cronjob, so make sure repeated runs do not lose data.
+- id: 346
+  category: cli
+  labels: []
+  prompt: Write an application that connects to Proton mail servers and sends an email in the name of the user from a file and command line argument config.
+- id: 347
+  category: cli
+  labels: []
+  prompt: Write a local application that continously runs in the background, listening for new files in the ~/Documents directory. When it finds a file, it reads its contents and categorizes it into personal, work, hobby, study categories, the moves it into the correct folder with the same name. For example ~/SortedDocuments/work. It should use the 7B version of the llama3 model running with Ollama at http://localhost:11434.
+- id: 348
+  category: cli
+  labels: []
+  prompt: Create a program to simulate TCP's three-way handshake with sockets.
+- id: 349
+  category: cli
+  labels: []
+  prompt: Write a program to analyze network packets from interface.
+- id: 350
+  category: cli
+  labels: []
+  prompt: Create a program that connects to server via a given IP and port and sends a text message.
+- id: 351
+  category: cli
+  labels: []
+  prompt: Write an program that sends ping packets to a given list of IP addresses and reports the average round-trip time for each address.
+- id: 352
+  category: cli
+  labels: []
+  prompt: Write an program that when given an IPv4 or IPv6 address, checks how many hops it takes to reach it.
+- id: 353
+  category: cli
+  labels: []
+  prompt: 'Write a program that given a list of '
+- id: 354
+  category: plugins
+  labels: []
+  prompt: Build a Discord bot that fetches and displays weather data for user-specified locations using an API like OpenWeatherMap.
+- id: 355
+  category: plugins
+  labels: []
+  prompt: Create a plugin for a Slack workspace that sends custom notifications (e.g., system alerts or task reminders) via webhooks.
+- id: 356
+  category: plugins
+  labels: []
+  prompt: Develop a Telegram bot that reads all incoming user messages in a channel and replies to them with a translation to english. Add a feature to set up exceptions to specific people.
+- id: 357
+  category: plugins
+  labels: []
+  prompt: Implement a Discord bot plugin that polls RSS feeds and posts updates to a channel, such as news or blog alerts. Also enable filtering for certain words in the titles.
+- id: 358
+  category: plugins
+  labels: []
+  prompt: Build a simple language server for autocompletion in VSCode.
+- id: 359
+  category: plugins
+  labels: []
+  prompt: Create a plugin for the Quorum blockchain that listens for smart contract events and triggers notifications.
+- id: 360
+  category: plugins
+  labels: []
+  prompt: Create a Discord bot that reads all the user messages, feeds them to an AI model to generate an image and shows that image in the channel when its done.
+- id: 361
+  category: plugins
+  labels: []
+  prompt: Create a Telegram bot that reads all the user messages, feeds them to an AI model to generate an image and shows that image in the channel when its done.
+- id: 362
+  category: plugins
+  labels: []
+  prompt: Develop a plugin system for a web app (using Echo) that dynamically registers API routes from external modules.
+- id: 363
+  category: plugins
+  labels: []
+  prompt: Develop a plugin system for a web app (using Gin) that dynamically registers API routes from external modules.
+- id: 364
+  category: plugins
+  labels: []
+  prompt: Create a discrod bot that moderates a global chat. If it detect any word from a wordlist it gives the user a strike and sends them a private message about it. After 3 strikes it bans the user.
+- id: 365
+  category: plugins
+  labels: []
+  prompt: Create a tyk middleware that redirects to a certain page /404 if the connected service has returned a 404. Make it so that each response code can be set up to direct to a specific page.
+- id: 366
+  category: plugins
+  labels: []
+  prompt: Create a reddit bot that watches for new posts on a subreddit, and when one appears runs a local small LLM to assign labels to it and applies those labels to the thread.
+- id: 367
+  category: plugins
+  labels: []
+  prompt: Create an X client that can receive private messages. When it receives one, it searches for that topic and returns the 5 most upvoted threads in that topic.
+- id: 368
+  category: plugins
+  labels: []
+  prompt: Create a Youtube plugin that queries all the watch count of the last day on each video, summarizes them and sends a notification to the user at noon.
+- id: 369
+  category: plugins
+  labels: []
+  prompt: Create a WhatsApp plugin simulates a simple customer support agent that asks about the issues a customer is facing before being connected to a human operator.
+- id: 370
+  category: plugins
+  labels: []
+  prompt: Create a WhatsApp plugin simulates a simple customer support agent using an LLM running in the background via queries to openrouter.ai.
+- id: 371
+  category: plugins
+  labels: []
+  prompt: Create a GitHub pipeline that executes multiple static code analyzers on the repository and returns the results. If any of the tools return a high finding then it halts the execution.
+- id: 372
+  category: plugins
+  labels: []
+  prompt: Create a Kubernetes controller that sends an alert if any of the pods crash.
+- id: 373
+  category: plugins
+  labels: []
+  prompt: Create a Terraform profider that works with a custom load balancer and implements path routing and properties such as timeout, default path, static responses, etc..
