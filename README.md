@@ -102,6 +102,20 @@ flowchart LR
     A --> D[Noopt Assembly]
 ```
 
+### Dataset Generation
+
+The dataset generation was performed with the following Python Jupyter notebooks. This is not needed for you to run if you are testing the stylometry, because the final output file is pre-generated at [llm-goasm-dataset.jsonl](llm-goasm-dataset.jsonl). Run it to validate our findings or do a custom run after some changes.
+
+> ⚠️ Running the files will incur costs on LLM inference providers. Setup is also necessary to proceed. Follow the instructions in the files carefully.
+
+1. [generate.ipynb](generate.ipynb) - Generates the LLM completions based on the tasks and validates compilability.
+2. [validate.ipynb](validate.ipynb) - Contains automated validation steps on the dataset content and reformats the LLM outputs into a unified format
+3. [compile.ipynb](compile.ipynb) - Compiles all programs into its assembled and disassembled versions and adds that content to the dataset
+4. [combine.ipynb](combine.ipynb) - Performs final checks, enriches the data and combines the dataset into one file
+
+Make sure to run the scripts in this sequence as each step relies on the last. It also depends on the preprompt and prompt lists stored in the [process/](process/) folder.
+
+
 ## Results
 
 For the results please read the paper at: **FINAL ADDED AFTER PUBLICATION**
